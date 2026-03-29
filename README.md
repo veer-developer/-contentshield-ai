@@ -16,7 +16,8 @@ ContentShield AI is a production-grade multi-agent system that automates the com
 ---
 
 ## Architecture
-
+## System Architecture
+![ContentShield AI Architecture](https://drive.google.com/file/d/1nOX03qNYw_pWWL8CM3xQZjR3Fg-kgX9K/view?usp=sharing)
 ```
 [Enterprise Knowledge Base / User Brief]
            │
