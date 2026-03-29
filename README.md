@@ -21,49 +21,7 @@ ContentShield AI is a production-grade multi-agent system that automates the com
 ![ContentShield AI Architecture]) <img width="1024" height="1024" alt="Frontend Layer" src="https://github.com/user-attachments/assets/afe09440-d7c7-4d0e-aee3-980a3914737e" />
 
 ```
-[Enterprise Knowledge Base / User Brief]
-           │
-           ▼
- ┌─────────────────────────┐
- │  1. Knowledge Extractor  │  RAG over brand docs, SOPs, regulatory files
- └─────────────────────────┘
-           │ Structured brief (JSON)
-           ▼
- ┌─────────────────────────┐
- │  2. Content Generator    │  Channel-specific drafts with [source] citations
- └─────────────────────────┘
-           │ Raw draft + claim tags
-           ▼
- ┌─────────────────────────┐
- │  3. Authenticity Agent ⚡│  Provenance · Metadata · Statistical · Temporal
- └─────────────────────────┘
-           │ Verified / Flagged / Rejected
-           ▼
- ┌─────────────────────────┐
- │  4. Compliance Agent     │  Brand voice · Legal flags · PII · Accessibility
- └─────────────────────────┘
-           │
-  [HUMAN CHECKPOINT] ← Optional review gate
-           │
-           ▼
- ┌─────────────────────────┐
- │  5. Localization Agent   │  Multi-language + back-translation drift check
- └─────────────────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │  6. Distribution Agent   │  CMS · LinkedIn · Email · Blog
- └─────────────────────────┘
-           │ Live signals
-           ▼
- ┌─────────────────────────┐
- │  7. Swarm Detection ⚡   │  Velocity · Geo · Bot fingerprint · Mutation
- └─────────────────────────┘
-           │
-           ▼
- ┌─────────────────────────┐
- │  8. Intelligence Agent   │  Feedback loop → improves future cycles
- └─────────────────────────┘
+
 ```
 
 ---
