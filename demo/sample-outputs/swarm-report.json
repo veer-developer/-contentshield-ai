@@ -1,0 +1,21 @@
+{
+  "contentId": "linkedin-post-q3-en-a1b2c3d4",
+  "detectedAt": "2024-10-15T14:43:00Z",
+  "swarmProbability": 0.79,
+  "action": "ESCALATE",
+  "signals": {
+    "suspiciousReposts": 847,
+    "accountAgePct": 0.94,
+    "geographicConcentration": 0.91,
+    "botSignatureMatch": 0.72,
+    "contentMutationPct": 0.38,
+    "velocityMultiplier": 8.4
+  },
+  "autoActions": [
+    "Platform abuse report filed: LinkedIn ref CS-2024-0847",
+    "Security team notified via Slack #brand-alerts",
+    "Legal hold initiated on engagement evidence snapshot",
+    "Content flagged for 5-min interval monitoring",
+    "Executive escalation email triggered"
+  ]
+}

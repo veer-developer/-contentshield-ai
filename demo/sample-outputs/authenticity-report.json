@@ -1,0 +1,43 @@
+{
+  "workflowId": "wf-2024-q3-launch-001",
+  "score": 85,
+  "processingTimeMs": 4200,
+  "overallRecommendation": "APPROVE",
+  "claimResults": [
+    {
+      "claim": "Revenue grew 340%",
+      "sourceId": "q3-earnings-p4",
+      "verdict": "CONTRADICTED",
+      "correctedValue": "34%",
+      "explanation": "Source document states 34% YoY growth, not 340%",
+      "confidence": 0.99
+    },
+    {
+      "claim": "12 days reduced cycle time",
+      "sourceId": "case-study-bank-2024",
+      "verdict": "VERIFIED",
+      "explanation": "Confirmed in banking client case study",
+      "confidence": 0.96
+    },
+    {
+      "claim": "Strongest quarter yet",
+      "sourceId": "q3-earnings-p1",
+      "verdict": "VERIFIED",
+      "explanation": "Validated as highest revenue quarter in company history",
+      "confidence": 0.91
+    },
+    {
+      "claim": "Zero hallucination risk",
+      "sourceId": null,
+      "verdict": "IMPLAUSIBLE",
+      "correctedValue": "near-zero hallucination risk",
+      "explanation": "Absolute claim — auto-softened to defensible form",
+      "confidence": 0.82
+    }
+  ],
+  "metadataFlags": {
+    "imageOrigin": "INTERNAL_S3",
+    "c2paSignal": "CLEAN",
+    "generativeWatermark": "NOT_DETECTED"
+  }
+}

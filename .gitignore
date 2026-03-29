@@ -1,0 +1,36 @@
+# Environment
+.env
+*.env
+
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+build/
+dist/
+.npm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
