@@ -13,11 +13,13 @@ ContentShield AI is a production-grade multi-agent system that automates the com
 - **Content Authenticity Agent** — Detects hallucinated claims, manipulated statistics, and risky AI-generated content using provenance signals, metadata checks, and chain-of-thought AI reasoning — before publishing.
 - **Swarm Detection Agent** — Post-publish surveillance that detects coordinated or synthetic amplification patterns signalling disinformation campaigns hijacking brand content.
 
+
 ---
 
 ## Architecture
 ## System Architecture
-![ContentShield AI Architecture](https://drive.google.com/file/d/1nOX03qNYw_pWWL8CM3xQZjR3Fg-kgX9K/view?usp=drive_link)
+![ContentShield AI Architecture]) <img width="1024" height="1024" alt="Frontend Layer" src="https://github.com/user-attachments/assets/afe09440-d7c7-4d0e-aee3-980a3914737e" />
+
 ```
 [Enterprise Knowledge Base / User Brief]
            │
