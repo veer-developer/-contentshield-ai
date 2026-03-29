@@ -1,7 +1,8 @@
 # ContentShield AI
 ### Multi-Agent Enterprise Content Lifecycle Automation Platform
 ### ET GenAI Hackathon — Phase 2 Prototype
-
+## 🎥 Demo Video
+[Watch 3-minute Demo](https://drive.google.com/file/d/1rjdJF7aljlY4CZcRRm8e_Ca2pd1iKH8k/view?usp=drive_link)
 ---
 
 ## What is ContentShield AI?
@@ -76,8 +77,8 @@ ContentShield AI is a production-grade multi-agent system that automates the com
 ### One-Command Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/contentshield-ai.git
-cd contentshield-ai
+git clone https://github.com/veer-developer/-contentshield-ai.git
+cd -contentshield-ai
 cp .env.example .env
 # Edit .env and add your OPENAI_API_KEY
 docker-compose up
@@ -91,7 +92,7 @@ docker-compose up
 
 **Backend**
 ```bash
-cd backend/contentshield-api
+cd backend/-contentshield-api
 mvn spring-boot:run
 ```
 
@@ -104,7 +105,7 @@ uvicorn main:app --port 8001
 
 **Frontend**
 ```bash
-cd frontend/contentshield-ui
+cd frontend/-contentshield-ui
 npm install
 npm start
 ```
@@ -142,7 +143,7 @@ npm start
 ## Repository Structure
 
 ```
-contentshield-ai/
+-contentshield-ai/
 ├── docker-compose.yml
 ├── README.md
 ├── backend/
